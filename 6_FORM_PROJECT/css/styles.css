@@ -1,3 +1,184 @@
-h1 {
-    color: red;
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1b2325;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #3ab7aa;
+}
+
+p, label {
+    color: #ffffff;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea{
+    outline: none;
+    border-bottom: 1px solid #3ab7aa;
+    background-color: transparent;
+    width: 500px;
+}
+
+input[type="file"] {
+    outline: none;
+    color: #3ab7aa;
+    border-bottom: 1px solid #3ab7aa;
+    background-color: transparent;
+    width: 500px;
+}
+
+textarea {
+    padding: 5px 0px;
+}
+
+/* Page Header */
+.header {
+    height: 250px;
+    padding: 20px;
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    
+}
+
+.header h3 {
+    color: #3ab7aa;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #181e1f;
+    border: 2px solid #3ab7aa;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}   
+
+.form {
+    border-top: 5px solid #3ab7aa;
+}
+
+/* Form Header */
+.form-header {
+    height: 45px;
+}
+
+.form-header p {
+    color: #3ab7aa;
+    border-bottom: 2px solid #3ab7aa;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 60px;
+    line-height: 70px;
+}
+
+/* Form body */
+.form-body {
+    padding: 30px;
+}
+
+.form-body p {
+    padding-bottom: 20px;
+}
+
+
+.form-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.form-title p {
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: #3ab7aa;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.box-input p {
+    margin-top: 30px;
+}
+
+.box-input textarea {
+    margin-top: 10px;
+    background-color: #1b2325;
+    outline: none;
+    border: 1px solid #3ab7aa;
+}
+
+.box-input #purchase_date {
+    color: #3ab7aa;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.optional-box p {
+    margin-bottom: 10px;
+}
+
+.optional-list li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.btn-submit {
+    background-color: #3ab7aa;
+    font-size: 15px;
+    font-weight: 900;
+    color: #181e1f;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: #181e1f;
+    border-color: #3ab7aa;
+    color: #3ab7aa;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #3ab7aa;
+    padding: 15px;
+}
+
+.footer p {
+    color: #181e1f;
+    font-weight: 600;
+    font-style: bold;
 }

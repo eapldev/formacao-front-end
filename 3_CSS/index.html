@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- 3 - Internal CSS -->
+    <style>
+        p {
+            /* color: yellowgreen; */
+            font-size: 40px;
+        }
+    </style>
+
+    <!-- 4 - External CSS -->
+    <!-- Cascading Style Sheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lists.css">
+    <link rel="stylesheet" href="css/titles.css">
+</head>
+
+<body>
+
+    <!-- 1 - Inline CSS -->
+    <h1 style="color:blueviolet">Mudar cor com InLine</h1>
+    <h1 style="color:rgb(0, 22, 17);">Outro título</h1>
+
+    <!-- 2 - Multiplas regras -->
+    <h1 style="color: blue; font-size: 40px; border-bottom: 5px solid red;">Mudar cor e tamanho da fonte</h1>
+
+    <!-- 3 - Internal CSS -->
+    <p>Eu fui estilizado pelo internal</p>
+    <p>+1</p>
+    <p>+2</p>
+
+    <!-- 48 - Position Sticky -->
+    <div class="sticky">
+        <span>Eu sou o Sticky!</span>
+    </div>
+
+    <!-- 4 - External CSS -->
+    <h3>Meu título azul bebê</h3>
+
+    <!-- 5 - Ordem do CSS -->
+    <p style="color: red;">Ordem do CSS</p>
+
+    <!-- 6 - Multiplos CSS -->
+    <ul>
+        <li>Kwi</li>
+        <li>Morango</li>
+        <li>Abacaxi</li>
+    </ul>
+
+    <!-- 7 - Desafio 2 -->
+    <h4>Carro</h4>
+    <h4>Moto</h4>
+    <h4>Caminhão</h4>
+
+    <!-- 8 - Classes -->
+    <p class="paragraph">Algum texto</p>
+    <p class="paragraph">Algum texto 2</p>
+    <p class="paragraph">Algum texto 3</p>
+
+    <!-- 9 - ID -->
+    <h1 id="exclusive-title">Este é um título com ID.</h1>
+
+    <!-- 10 - Multiplas regras, ordem do CSS -->
+    <h2 id="algum-titulo" class="titulo">Algum texto 1</h2>
+    <h2 class="titulo">Algum texto 2</h2>
+    <h2>Algum texto 3</h2>
+
+    <!-- 11 - Nome de cor -->
+    <p class="color-name">Qualquer texto para nome de cores.</p>
+
+    <!-- 12 - Hex -->
+    <p class="hex">Parágrafo com HEX</p>
+    <p class="hex-2">Parágrafo com outra HEX</p>
+
+    <!-- 13 - Mais sobre hex -->
+    <p class="simple-hex">Hex simplificado</p>
+    <p class="simple-hex2">Hex simplificado 2</p>
+
+    <!-- 14 - RGB -->
+    <p class="rgb">Este foi estilizado com RGB</p>
+    <p class="mixed-rgb">Este foi estilizado com RGB</p>
+
+    <!-- 15 - RGBA -->
+    <p class="rgba">Este foi estilizado com RGBA</p>
+
+    <!-- 16 - HSL -->
+    <p class="hsl">Este foi estilizado com HSL</p>
+    <p class="hsl-2">Este foi estilizado com HSL 2</p>
+
+    <!-- 17 - Background-color -->
+    <p class="bg">Mude o meu background</p>
+    <h2 class="bg-2">Outra variação de BG</h2>
+
+    <!-- 18 - Opacidade no Background -->
+    <div class="bg-opacity">
+        <p>Estou aqui!</p>
+    </div>
+    <div class="bg-opacity-2">
+        <p>Estou aqui quase visível!</p>
+    </div>
+
+    <!-- 19 - RGBA com opacidade -->
+    <div class="rgba-opacity">
+        <h1>Este título precisa estar visível!</h1>
+    </div>
+
+    <!-- 20 - BG image -->
+    <h1 class="bg-image">Este título tem uma imagem</h1>
+
+    <!-- 21 - Centralizar img background -->
+    <div class="not-centered-bg"></div>
+    <div class="centered-bg"></div>
+
+    <!-- 22 - Largura e Altura -->
+    <div class="height-width"></div>
+    <div class="height-width-2"></div>
+
+    <!-- 23 - Padding -->
+    <div class="without-padding">Este não tem padding!</div>
+    <div class="padding">Este tem padding!</div>
+
+    <!-- 24 - Padding Individual -->
+    <p class="padding-individual">Este elemento tem paddings diferentes.</p>
+
+    <!-- 25 - Shorthand Padding -->
+    <p class="shorthand-padding">Algum texto</p>
+    <p class="shorthand-padding-2">Algum texto2</p>
+
+    <!-- 26 - Padding e Width -->
+    <div class="without-border-box">
+        <p>Algum conteúdo</p>
+    </div>
+    <div class="border-box">
+        <p>Alum conteúdo 2</p>
+    </div>
+
+    <!-- 27 - Border -->
+    <div class="border">Borda</div>
+    <div class="border-2">Borda Two</div>
+
+    <!-- 28 - Border Individual -->
+    <p class="border-left">Borda na esquerda</p>
+    <p class="border-bottom">Borda na Inferior</p>
+
+    <!-- 29 - Border Radius -->
+    <div class="rounded-p">Borda redonda</div>
+    <div class="rounded-p2">Borda redonda 2</div>
+
+    <!-- 30 - Margin -->
+    <div class="margin"> Eu tenho uma margem</div>
+    <div class="margin-top">Margin no topo</div>
+    <div class="margin-shorthand">Utilizando Shorthand</div>
+
+    <!-- 31 - Box Model -->
+    <div class="box-model">
+        <p>Tenho todas as propriedades do box model.</p>
+    </div>
+
+    <!-- 32 - Desafio 3 - CSS -->
+    <div class="desafio-3" id="content">
+        <h2 class="txtp">Aqui está o desafio - CSS</h2>
+    </div>
+
+    <!-- 33 - Text Alignment -->
+    <p class="text-aligned">Alinhado a direita</p>
+    <div class="container-center">
+        <h2>Estamos centralizados</h2>
+        <p>Algum textinho</p>
+    </div>
+
+    <!-- 34 - Text Decoration -->
+    <p class="underline">Eu tenho um underline</p>
+    <p class="line-trough">Eu tenho um risco</p>
+    <a href="#" class="remove-underline">Sem underline</a>
+
+    <!-- 35 - Text Transform -->
+    <p class="upper">Este texto é em caixa alta</p>
+    <p class="lower">ESTE É EM LOWER</p>
+
+    <!-- 36 - Letter Spacing -->
+    <h2 class="spacing">Eu tenho um espaçamento maior.</h2>
+
+    <!-- 37 - Fonts -->
+    <p class="serif">Serif Font</p>
+    <p class="sans-serif">Sans Serif Font</p>
+    <p class="monospace">Monospace Font</p>
+    <p class="cursive">Cursive Font</p>
+    <p class="fantasy">Fantasy Font</p>
+
+    <!-- 38 - Font Style -->
+    <p class="italic">Fonte Itálica</p>
+    <p class="oblique">Fonte Oblíquo</p>
+
+    <!-- 39 - Font Weight -->
+    <p class="thin">Eu sou mais fino.</p>
+    <p class="bold">Eu estou em bold</p>
+    <p class="bolder">Eu sou a maior fonte!</p>
+
+    <!-- 40 - Font Size -->
+    <h4 class="small">Título pequeno</h4>
+    <h4 class="big">Título maior</h4>
+
+    <!-- 41 - Display -->
+    <div class="inline-box">A</div>
+    <div class="inline-box">B</div>
+    <div class="inline-box">C</div>
+    <span class="block">Teste</span>
+    <span class="block">Teste 2</span>
+
+    <!-- 42 - Display None -->
+    <span class="invisible">Me encontre se puder!</span>
+
+    <!-- Positions -->
+
+    <!-- 43 - Position Static -->
+    <div class="static">
+        <span>Eu sou estático!</span>
+    </div>
+
+    <!-- 44 - Position Relative -->
+    <div class="relative">
+        <span>Eu sou relativo!</span>
+    </div>
+    <p>Parágrafo</p>
+
+    <!-- 45 - Position Absolute -->
+    <div class="absolute">
+        <span>Eu sou absoluto</span>
+    </div>
+    <p>Eu sou um Parágrafo</p>
+
+    <!-- 46 - Relative com Absolute -->
+    <div class="relative-container">
+        <div class="absolute-1"></div>
+        <div class="absolute-2"></div>
+    </div>
+
+    <!-- 47 - Position Fixed -->
+    <div class="fixed">
+        <span>Sou fixo</span>
+    </div>
+
+    <!-- 48 - Linha 38 -->
+
+    <!-- 49 - Z-index -->
+    <div class="relative-container">
+        <div class="absolute-3"></div>
+        <div class="absolute-4"></div>
+        <div class="absolute-5"></div>
+    </div>
+
+
+</body>
+
+</html>

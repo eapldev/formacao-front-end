@@ -1,0 +1,540 @@
+/* 4 - External CSS */
+
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: rgb(0, 153, 255);
+}
+
+/* Classes */
+
+.paragraph {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+/* IDs */
+
+#exclusive-title {
+    background-color: blueviolet;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* Ordem das regras */
+
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* Nome de cores */
+
+.color-name {
+    color: darkolivegreen;
+}
+
+/* HEX */
+
+.hex {
+    color: #55A398;
+}
+
+.hex-2 {
+    color: #9900F2;
+}
+
+/* Aprofundando em HEX */
+
+.simple-hex {
+    color: #333;
+}
+
+.simple-hex2 {
+    color: #691cb6;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(150, 90, 0);
+}
+
+/* RGBA */
+
+.rgba {
+    color: rgba(0, 150, 250, 0.3);
+}
+
+/* HSL */
+
+.hsl {
+    color: hsl(50, 90%, 20%);
+}
+
+.hsl-2 {
+    color: hsl(203, 16%, 35%);
+}
+
+/* Background */
+
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgb(200, 20, 40);
+    color: #00eaff;
+}
+
+/* Background opacity */
+
+.bg-opacity {
+    background-color: green;
+    opacity: .2;
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    color: #000;
+    opacity: 0.8;
+}
+
+/* RGBA com opacidade */
+
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, 0.2);
+    color: #000;
+}
+
+/* BG - IMAGE */
+
+.bg-image {
+    background-image: url('../img/city.jpg');
+    padding: 10px;
+    color: #FFF;
+}
+
+/* Centralizando BG Image */
+
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url('../img/bridge.jpg');
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Largura e Altura */
+
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: #333;
+}
+
+.height-width-2 {
+    height: 300px;
+    background-color: #691cb6;
+}
+
+/* Padding */
+.without-padding,
+.padding {
+    background-color: #111;
+    color: #FFF;
+}
+
+.padding {
+    background-color: #350000;
+    padding: 20px;
+}
+
+/* Padding Individual */
+.padding-individual {
+    background-color: #691cb6;
+    color: #FFF;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand Padding */
+.shorthand-padding {
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+    background-color: #555;
+    color: pink;
+    padding: 10px 20px;
+}
+
+/* Padding With */
+.without-border-box {
+    background-color: #55A398;
+    color: #691cb6;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #400761;
+    color: #00b3c0;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Border */
+.border {
+    border: 5px solid #691cb6;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px dotted #7fa105;
+    padding: 50px;
+}
+
+/* Border Individual */
+.border-left {
+    border-left: 5px solid orangered;
+    background-color: #222;
+    color: orangered;
+    padding: 20px;
+}
+
+.border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding: 20px;
+    color: #399;
+}
+
+/* Border Radius */
+.rounded-p {
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.rounded-p2 {
+    background-color: #000;
+    color: rgb(255, 0, 106);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* Margin */
+.margin {
+    margin: 10px;
+    background-color: #400761;
+}
+
+.margin-top {
+    margin-top: 50px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.margin-shorthand {
+    background-color: plum;
+    margin: 5px 10px 15px 20px;
+}
+
+/* Box Model */
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #7fa105;
+    border-radius: 7px;
+    width: 200px;
+    height: 320px;
+}
+
+/* Desafio 3 - CSS */
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 30px;
+    border: 5px solid #00b3c0;
+    border-radius: 3px;
+    width: 280px;
+    height: 40px;
+    background-color: #000;
+    outline: 10px solid #000;
+}
+
+.txtp {
+    padding: 5px;
+    outline: 1px solid #00b3c0;
+    background-color: #000;
+    color: #00b3c0;
+    border: 0px;
+}
+
+/* Text Align */
+
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid rebeccapurple;
+}
+
+/* Text Decoration */
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: violet;
+}
+
+/* Text Transform */
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+/* Letter Spacing */
+.spacing {
+    letter-spacing: 5px;
+}
+
+/* Fonts */
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+    font-style: "Courier New";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/* Font Style */
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/* Font Weight */
+.thin,
+.bold,
+.bolder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thin {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* Font Size */
+.small {
+    font-size: 6px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+/* Display */
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4F8;
+    margin: 15px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #400761;
+    display: block;
+    margin: 10px;
+    color: #ffd900;
+}
+
+/* Display None */
+.invisible {
+    display: none;
+}
+
+/* Positions */
+/* Position Static */
+.static {
+    position: static;
+    background-color: #4F8;
+    color: #000;
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+/* Position Relative */
+.relative {
+    position: relative;
+    background-color: #a35575;
+    color: #000;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/* Position Absolute */
+.absolute {
+    position: absolute;
+    background-color: #6355a3;
+    color: #00ff80;
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    font-weight: 900;
+    top: 2px;
+    right: 20px;
+    
+}
+
+/* Relative e Absolute */
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #350000;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Position Fixed */  
+.fixed {
+    width: 100px;
+    height: 100px;
+    background-color: #4F8;
+    border: 1px solid #002fff;
+    margin-top: 120px;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* Position Sticky */
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color: #ff4444;
+    border: 5px solid #002fff;
+    position: sticky;
+    top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    color: yellow;
+}    
+
+/* Z-index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #008f58;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #400761;
+    z-index: 2;
+}
+
+.absolute-5 {
+    top: 40px;
+    left: 40px;
+    background-color: tomato;
+    z-index: 3;
+}

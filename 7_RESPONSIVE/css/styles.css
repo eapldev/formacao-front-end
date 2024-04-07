@@ -1,0 +1,39 @@
+/* 2 - Media Query */
+
+h1 {
+    color: #3ab7aa;
+}
+
+@media screen and (max-width: 500px) { 
+    h1 {
+        color: blueviolet;
+    }
+}
+
+/* 3 - Min-Width */
+
+p {
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 800;
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        background-color: yellow;
+        color: #000;
+    }
+}
+
+/* 4 - Landscape */
+h3 {
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    h3 {
+        display: block;
+    }
+}

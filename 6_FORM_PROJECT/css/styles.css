@@ -9,11 +9,16 @@ body {
     background-color: #1b2325;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #3ab7aa;
 }
 
-p, label {
+p,
+label {
     color: #ffffff;
 }
 
@@ -26,10 +31,11 @@ input {
 input[type="text"],
 input[type="number"],
 input[type="date"],
-textarea{
+textarea {
     outline: none;
     border-bottom: 1px solid #3ab7aa;
     background-color: transparent;
+    color: #3ab7aa;
     width: 500px;
 }
 
@@ -51,7 +57,7 @@ textarea {
     padding: 20px;
     background-image: url('../img/bg-header.jpg');
     background-repeat: no-repeat;
-    
+
 }
 
 .header h3 {
@@ -68,7 +74,7 @@ textarea {
     margin: 0 auto;
     position: relative;
     top: -62px;
-}   
+}
 
 .form {
     border-top: 5px solid #3ab7aa;
@@ -181,4 +187,138 @@ textarea {
     color: #181e1f;
     font-weight: 600;
     font-style: bold;
+}
+
+/* Responsive */
+
+@media (max-width: 1625px) {
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    textarea {
+        outline: none;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 425px;
+    }
+
+    input[type="file"] {
+        outline: none;
+        color: #3ab7aa;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 313px;
+    }
+
+}
+
+@media (max-width: 1305px) {
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    textarea {
+        outline: none;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 330px;
+    }
+
+    input[type="file"] {
+        outline: none;
+        color: #3ab7aa;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 313px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    textarea {
+        outline: none;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 313px;
+    }
+
+    input[type="file"] {
+        outline: none;
+        color: #3ab7aa;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 313px;
+    }
+
+}
+
+@media (max-width: 1060px) {
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    textarea {
+        outline: none;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 255px;
+    }
+
+    input[type="file"] {
+        outline: none;
+        color: #3ab7aa;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 255px;
+    }
+
+}
+
+@media (max-width: 759px) {
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    textarea {
+        outline: none;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 165px;
+    }
+
+    input[type="file"] {
+        outline: none;
+        color: #3ab7aa;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 313px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    textarea {
+        outline: none;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 120px;
+    }
+
+    input[type="file"] {
+        outline: none;
+        color: #3ab7aa;
+        border-bottom: 1px solid #3ab7aa;
+        background-color: transparent;
+        width: 313px;
+    }
+
 }

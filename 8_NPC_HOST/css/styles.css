@@ -10,7 +10,9 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: #333;
 }
 
@@ -30,15 +32,9 @@ nav {
     position: relative;
 }
 
-.logo {
-    margin-top: 8px;
-    width: 3.5%;
-    cursor: pointer;
-    transition: .2s;
-}
-
-.logo:hover {
-    width: 4.2%;
+.navbar-container img {
+    margin-top: 15px;
+    width: 50px;
 }
 
 .navbar-items {
@@ -60,7 +56,7 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #FFF;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -89,7 +85,7 @@ nav {
     background-image: url('../img/mainbanner.jpg');
     background-size: cover;
     background-position: center;
-    padding: 10rem 0;
+    padding: 7rem 0;
     height: 360px;
 }
 
@@ -192,17 +188,25 @@ nav {
     font-weight: bold;
     color: #FFF;
     background-color: #ff8741;
+    border-radius: 5px;
     padding: 50px 0;
 }
 
 .plan .plan-btn {
     background-color: #a83279;
+    border-radius: 5px;
     color: #FFF;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     height: 75px;
     line-height: 75px;
     cursor: pointer;
+    transition: .2s;
+}
+
+.plan .plan-btn:hover {
+    color: #d18016;
+    font-size: 26px;
 }
 
 .plan .recommended {
@@ -210,4 +214,245 @@ nav {
     color: #333;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+}
+
+.plan .recommended:hover {
+    color: #333;
+}
+
+/* Search domain */
+.searchdomain-container {
+    background-color: #6724a0;
+    text-align: center;
+    padding: 5rem 0;
+    border-radius: 3px auto;
+}
+
+.searchdomain-container h2 {
+    color: #FFF;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.searchdomain-container p {
+    color: #D5D5D5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchdomain-container input[type="text"] {
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.searchdomain-container input[type="submit"] {
+    background-color: #d18016;
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.searchdomain-container input[type="submit"]:hover {
+    background-color: #a83279;
+    font-size: 26px;
+}
+
+/* Contact Form */
+.contact-container {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #D5D5D5;
+    margin: 0 10px 20px;
+    outline: none;
+}
+
+.contact-container textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 400px;
+    height: 160px;
+}
+
+.contact-container input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #d18016;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    transition: .2s;
+    font-size: 18px;
+    font-weight: 600;
+    width: 120px;
+    height: 40px;
+}
+
+.contact-container input[type="submit"]:hover {
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #a83279;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+/* Responsividade */
+
+/* Small Laptops a partir de 110px */
+@media (max-width: 1100px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/* Tablet 900px */
+@media (max-width: 900px) {
+    .main-banner p {
+        padding: 0 6rem;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+/* Celular */
+@media (max-width: 576px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-container {
+        width: 100%;
+        height: 80px;
+        background-color: #6724a0;
+        padding: 0px 1rem;
+    }
+
+    .navbar-container img {
+        margin-right: 200px;
+        width: 50px;
+    }
+
+    .navbar-items li {
+        margin-left: 10px;
+    }
+
+    .main-banner {
+        padding: 8rem 0rem;
+    }
+
+    .main-banner h1 {
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: #000000af 5px 3px 3px;
+    }
+
+    .main-banner p {
+        font-size: 20px;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 5rem;
+        gap: 50px;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 28px;
+    }
+
+    .searchdomain-container input[type="text"] {
+        width: 91%;
+        padding: 20px;
+        font-size: 20px;
+        margin-bottom: 25px;
+        outline: none;
+    }
+
+    .searchdomain-container input[type="submit"] {
+        background-color: #d18016;
+        padding: 15px 15px;
+        color: #FFF;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+        transition: .2s;
+    }
+
+    .contact-container {
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar-items li a {
+        font-size: 13px;
+    }  
 }

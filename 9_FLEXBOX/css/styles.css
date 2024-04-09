@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-bottom: 500px;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+
+/* Flex Column */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    background-color: #CCC;
+}

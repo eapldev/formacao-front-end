@@ -121,6 +121,11 @@ nav {
 .services-container img {
     width: 100px;
     margin-bottom: 15px;
+    transition: .2s;
+}
+
+.services-container img:hover {
+    width: 140px;
 }
 
 .services-container h3 {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,47 +9,54 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Instagram</title>
 </head>
+
 <body>
     <main>
         <div id="main-container">
             <!-- Banner Container -->
             <div id="banner-container">
-                <img src="img/banner2.png" alt="Crie uma conta no instagram">
+                <img src="img/banner2.png" alt="Crie uma conta no Instagram" />
             </div>
             <!-- Login e Registro -->
             <div id="form-container">
                 <div id="form-box">
-                    <img src="img/logo_instagram.png" alt="Instagram">
+                    <a href="https://www.instagram.com/">
+                        <img id="logo-insta" src="img/logo_instagram.png" alt="Instagram" />
+                    </a>
+
                     <form id="login-form">
-                        <input type="text" name="username" placeholder="Telefone, nome de usuário ou email">
-                        <input type="password" name="password" placeholder="Senha">
-                        <input type="submit" value="Entrar">
+                        <input type="text" name="username" placeholder="Número de telefone, usuário ou e-mail" />
+                        <input type="password" name="password" placeholder="Senha" />
+                        <input type="submit" value="Entrar" />
                     </form>
                     <div class="separator">
-                        <div class="line">
-                            <span>Ou</span>
+                        <div class="line"></div>
+                        <span>Ou</span>
+                    </div>
+                    <div id="other-links">
+                        <div id="facebook-login">
+                            <a
+                                href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Dpt_BR%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%25225me6i0kf5jiut8pncb1k3dh8r9yjxlxp7fuga1djqfhul41075%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D4432608c-5c0c-4cc5-a1fa-b6f66d429838%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25225me6i0kf5jiut8pncb1k3dh8r9yjxlxp7fuga1djqfhul41075%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=pt_BR&pl_dbl=0">
+                                <img src="img/logo_facebook.svg" alt="Facebook Login" />
+                                <span>Entrar com o Facebook</span>
+                            </a>
                         </div>
-                        <div class="other-links">
-                            <div id="facebook-login">
-                                <img src="img/logo_facebook.svg" alt="Facebook Login">
-                                <span>Entrar com Facebook</span>
-                            </div>
-                            <div id="forgot-pass">
-                                <a href="#">Esqueceu a senha?</a>
-                            </div>
+                        <div id="forgot-pass">
+                            <a href="https://www.instagram.com/accounts/password/reset/">Esqueceu a senha?</a>
                         </div>
                     </div>
                 </div>
                 <div id="register-container">
-                    <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                    <p>Não tem uma conta? <a href="https://www.instagram.com/accounts/emailsignup/">Cadastre-se</a></p>
                 </div>
                 <div id="get-app-container">
                     <p>Obtenha o aplicativo.</p>
-                    <a href="#">
-                        <img src="img/apple_btn.png" alt="Apple Store">
+                    <a href="https://apps.apple.com/br/app/instagram/id389801252">
+                        <img src="img/apple_btn.png" alt="Apple Store" />
                     </a>
-                    <a href="#">
-                        <img src="img/gplay_btn.png" alt="Google Play">
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DDEF8F4B2-0B78-4420-B01C-C9D738C824C9%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge">
+                        <img src="img/gplay_btn.png" alt="Google Play" />
                     </a>
                 </div>
             </div>
@@ -57,22 +65,82 @@
     <footer>
         <nav>
             <ul id="footer-links">
-                <li><a href="#">Meta</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Carreiras</a></li>
-                <li><a href="#">Ajuda</a></li>
-                <li><a href="#">API</a></li>
-                <li><a href="#">Privacidade</a></li>
-                <li><a href="#">Termos</a></li>
-                <li><a href="#">Localizações</a></li>
-                <li><a href="#">Instagram Lite</a></li>
-                <li><a href="#">Threads</a></li>
-                <li><a href="#">Carregamento de contatos e não usuários</a></li>
-                <li><a href="#">Meta Verified</a></li>
+                <li><a href="https://about.meta.com/">Meta</a></li>
+                <li><a href="https://about.instagram.com/">Sobre</a></li>
+                <li><a href="https://about.instagram.com/blog/">Blog</a></li>
+                <li><a href="https://www.instagram.com/about/jobs/">Carreiras</a></li>
+                <li><a href="https://help.instagram.com/">Ajuda</a></li>
+                <li><a href="https://developers.facebook.com/docs/instagram">API</a></li>
+                <li><a href="https://www.instagram.com/legal/privacy/">Privacidade</a></li>
+                <li><a href="https://www.instagram.com/legal/terms/">Termos</a></li>
+                <li><a href="https://www.instagram.com/explore/locations/">Localizações</a></li>
+                <li><a href="https://www.instagram.com/web/lite/">Instagram Lite</a></li>
+                <li><a href="https://www.threads.net/">Threads</a></li>
+                <li><a href="https://www.facebook.com/help/instagram/261704639352628">Carregamento de contatos e não
+                        usuários</a></li>
+                <li><a href="https://about.meta.com/technologies/meta-verified/">Meta Verified</a></li>
             </ul>
         </nav>
-        <p id="copyright">&copy;2024 Instagram from meta</p>
+        
+        <div class="aria-label">
+            <select aria-label="Trocar idioma de exibição">
+            <option value="af">Afrikaans</option>
+            <option value="ar">العربية</option>
+            <option value="cs">Čeština</option>
+            <option value="da">Dansk</option>
+            <option value="de">Deutsch</option>
+            <option value="el">Ελληνικά</option>
+            <option value="en">English</option>
+            <option value="en-gb">English (UK)</option>
+            <option value="es">Español (España)</option>
+            <option value="es-la">Español</option>
+            <option value="fa">فارسی</option>
+            <option value="fi">Suomi</option>
+            <option value="fr">Français</option>
+            <option value="he">עברית</option>
+            <option value="id">Bahasa Indonesia</option>
+            <option value="it">Italiano</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+            <option value="ms">Bahasa Melayu</option>
+            <option value="nb">Norsk</option>
+            <option value="nl">Nederlands</option>
+            <option value="pl">Polski</option>
+            <option value="pt-br">Português (Brasil)</option>
+            <option value="pt">Português (Portugal)</option>
+            <option value="ru">Русский</option>
+            <option value="sv">Svenska</option>
+            <option value="th">ภาษาไทย</option>
+            <option value="tl">Filipino</option>
+            <option value="tr">Türkçe</option>
+            <option value="zh-cn">中文(简体)</option>
+            <option value="zh-tw">中文(台灣)</option>
+            <option value="bn">বাংলা</option>
+            <option value="gu">ગુજરાતી</option>
+            <option value="hi">हिन्दी</option>
+            <option value="hr">Hrvatski</option>
+            <option value="hu">Magyar</option>
+            <option value="kn">ಕನ್ನಡ</option>
+            <option value="ml">മലയാളം</option>
+            <option value="mr">मराठी</option>
+            <option value="ne">नेपाली</option>
+            <option value="pa">ਪੰਜਾਬੀ</option>
+            <option value="si">සිංහල</option>
+            <option value="sk">Slovenčina</option>
+            <option value="ta">தமிழ்</option>
+            <option value="te">తెలుగు</option>
+            <option value="ur">اردو</option>
+            <option value="vi">Tiếng Việt</option>
+            <option value="zh-hk">中文(香港)</option>
+            <option value="bg">Български</option>
+            <option value="fr-ca">Français (Canada)</option>
+            <option value="ro">Română</option>
+            <option value="sr">Српски</option>
+            <option value="uk">Українська</option>
+        </select>
+        <p id="copyright">&copy;2022 Instagram from Meta</p>
+        </div>
     </footer>
 </body>
+
 </html>

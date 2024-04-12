@@ -1,3 +1,184 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    transition: .1s;
+}
+
+a:hover {
+    color: #5a00ff;
+    border-bottom: 2px solid #5a00ff;
+}
+
+/* Navbar */
+#navbar {
+    padding: 1rem 1rem;
+    border-bottom: 2px solid #ddd;
+}
+
+#navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#navbar-inner img {
+    width: 200px;
+    cursor: pointer;
+}
+
+#navbar-inner .logo {
+    border: none;
+}
+
+#nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Container */
+.container {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 0rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#posts-container {
+    flex: 3 1 0;
+}
+
+.post {
+    margin-bottom: 2.5rem;
+}
+
+.post .h3 {
+    border: none;
+}
+
+.post img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.title,
+.description,
+.author {
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.author {
+    color: #444;
+    font-weight: bold;
+}
+
+/* Aside */
+#sidebar {
+    flex: 1 1 0;
+}
+
+#search-bar,
+#categories,
+#tags {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+#search-bar h4,
+#categories h4,
+#tags h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+#search-bar form {
+    display: flex;
+}
+
+#search-bar input {
+    padding: .5rem 1rem;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+#search-bar input[type="submit"] {
+    cursor: pointer;
+    background-color: #5a00ff;
+    color: #fff;
+    border: none;
+    transition: .2s;
+}
+
+#search-bar input[type="submit"]:hover {
+    opacity: .8;
+}
+
+#categories li {
+    margin-bottom: 1rem;
+}
+
+#tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+#tags-container a {
+    background-color: #ddd;
+    padding: .5rem .7rem;
+    border-radius: .3rem;
+    border: none;
+    transition: .2s;
+}
+
+#tags-container a:hover {
+    background-color: #5a00ff;
+    color: #fff;
+}
+
+/* Footer */
+#footer {
+    border-top: 2px solid #ddd;
+    padding: .3rem;
+    text-align: center;
+}
+
+#footer img {
+    margin-top: 5px;
+    width: 120px;
+}
+
+#footer p {
+    margin-top: 5px;
+}
+
+#footer a {
+    cursor: pointer;
+    border: none;
+}
+
+/* Responsive */
+@media(max-width: 450px) {
+    .container {
+        width: 90%;
+        flex-wrap: wrap;
+    }
 }

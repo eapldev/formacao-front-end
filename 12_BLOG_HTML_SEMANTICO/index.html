@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -7,7 +8,93 @@
     <title>BLOGBLOG</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <h1>Teste</h1>
+    <header>
+        <nav id="navbar">
+            <div id="navbar-inner">
+                <a href="#" class="logo"><img src="img/logoblog.png" alt="Logo"></a>
+                <ul id="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main id="posts-container">
+            <article class="post">
+                <img src="img/banner1.jpg" alt="Banner1">
+                <h3 class="title"><a href="#" class="h3">Tudo começou no Japão.</a></h3>
+                <p class="description">O drifting começou no Japão na década de 1970 por Kunimitsu Takahashi, que o usou
+                    para percorrer rapidamente as pistas do Campeonato Japonês de Carros de Turismo. Suas técnicas
+                    inspiraram os corredores de rua a usá-lo para contornar as curvas do togue (estradas de montanha)
+                    mais rapidamente, mas lentamente evoluíram para um tipo de direção totalmente baseado no estilo.
+                </p>
+                <p class="author">Por: Eduardo Aparecido</p>
+                <a href="#">Ler mais</a>
+            </article>
+            <article class="post">
+                <img src="img/banner2.jpg" alt="Banner2">
+                <h3 class="title"><a href="#" class="h3">Flor de cerejeira (Sakura)</a></h3>
+                <p class="description">A flor de cerejeira, ou sakura, é a flor das árvores do subgênero Prunus Cerasus.
+                    "Sakura" geralmente se refere a flores de cerejeiras ornamentais, como cultivares de Prunus
+                    serrulata, e não a árvores cultivadas por seus frutos.
+                </p>
+                <p class="author">Por: Eduardo Aparecido</p>
+                <a href="#">Ler mais</a>
+            </article>
+            <article class="post">
+                <img src="img/banner3.jpg" alt="Banner3">
+                <h3 class="title"><a href="#" class="h3">Torii Gates</a></h3>
+                <p class="description">Torii gates are an instantly recognizable symbol of Japan. They’re the
+                    traditional Japanese gates most commonly found at the entrance to Shinto shrines and mark the
+                    transition from the everyday to the sacred.
+                </p>
+                <p class="author">Por: Eduardo Aparecido</p>
+                <a href="#">Ler mais</a>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Busca</h4>
+                <form>
+                    <input type="text" placeholder="Pesquise no blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+            <section id="categories">
+                <h4>Categorias</h4>
+                <nav>
+                    <ul>
+                        <li><a href="">Paisagens</a></li>
+                        <li><a href="">Aventura</a></li>
+                        <li><a href="">Viagens longas</a></li>
+                        <li><a href="">Florestas</a></li>
+                        <li><a href="">Cachoeiras</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="tags">
+                <h4>Tags</h4>
+                <div id="tags-container">
+                    <a href="#">Lifestyle</a>
+                    <a href="#">Nutrition</a>
+                    <a href="#">Drift</a>
+                    <a href="#">Mountains</a>
+                    <a href="#">Temples</a>
+                    <a href="#">Cars JDM</a>
+                    <a href="#">Forest</a>
+                </div>
+            </section>
+        </aside>
+    </div>
+    <footer id="footer">
+        <a href="#"><img src="img/logoblog.png" alt="Logoblog"></a>
+
+        <p>2024 &copy; eapldev</p>
+    </footer>
 </body>
+
 </html>

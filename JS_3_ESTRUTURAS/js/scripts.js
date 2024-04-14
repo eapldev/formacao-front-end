@@ -171,34 +171,34 @@
 // }
 
 // 15 - Continue
-for (let s = 1; s < 10; s = s + 1) {
-    // operador resto = %
-    if (s % 2 === 0) {
-        console.log("Numero par!")
-        continue
-    }
-    console.log(s)
-}
+// for (let s = 1; s < 10; s = s + 1) {
+//     // operador resto = %
+//     if (s % 2 === 0) {
+//         console.log("Numero par!")
+//         continue
+//     }
+//     console.log(s)
+// }
 
-// 16 - Switch
-const job = "Programador"
+// // 16 - Switch
+// const job = "Programador"
 
-switch (job) {
-    case "Médico":
-        console.log("Você é um Médico!")
-        break
+// switch (job) {
+//     case "Médico":
+//         console.log("Você é um Médico!")
+//         break
 
-    case "Engenheiro":
-        console.log("Você é um Engenheiro!")
-        break
+//     case "Engenheiro":
+//         console.log("Você é um Engenheiro!")
+//         break
 
-    case "Programador":
-        console.log("Você é um Programador!")
-        break
+//     case "Programador":
+//         console.log("Você é um Programador!")
+//         break
 
-    default:
-        console.log("Profissão não encontrada!")
-}
+//     default:
+//         console.log("Profissão não encontrada!")
+// }
 
 // Switch ERRADO!
 

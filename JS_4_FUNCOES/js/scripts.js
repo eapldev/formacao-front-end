@@ -181,7 +181,7 @@
 
 // 11 -recursion
 const untilTen = (n, m) => {
-    if(n < 10) {
+    if (n < 10) {
         console.log("A função parou de executar!")
     } else {
         const x = n - m
@@ -201,7 +201,7 @@ untilTen(100, 7)
 // }
 
 function factorial(x) {
-    if(x === 0) {
+    if (x === 0) {
         return 1
     } else {
         return x * factorial(x - 1)

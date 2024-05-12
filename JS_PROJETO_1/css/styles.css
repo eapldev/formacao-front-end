@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #7144db 5%, #000000 85%);
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+#multiplication-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #000000b7;
+    color: #917bc5;
+    border-radius: 1rem;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 0 1rem;
+}
+
+.form-control label {
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.form-control input {
+    margin-bottom: 1rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid #917bc5;
+    border-radius: 0.5rem;
+    width: 50px;
+    text-align: center;
+    background-color: #0000004f;
+    color: #917bc5;
+    outline: none;
+}
+
+#multiplication-form input[type="submit"] {
+    max-height: 50px;
+    padding: 0.6rem 1.2rem;
+    width: 200px;
+    color: #000;
+    background-color: #7144db;
+    border: 0.5px solid #000000;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#multiplication-form input[type="submit"]:hover {
+    background-color: #804ab3;
+    border: 0.5px solid #7144db;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    animation: 0.2s;
+}
+
+#multiplication-operations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    background-color: #0000008f;
+    color: #917bc5;
+    border-radius: 0.5rem;
+}
+
+#multiplication-operations p {
+    margin-bottom: 0.5rem;
+}
+
+#multiplication-operations .row {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #917bc5;
+    border-bottom: none;
+    border-radius: 0.2rem;
+    background-color: #0000004f;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+#multiplication-operations .row:last-child {
+    border-bottom: 1px solid #917bc5;
+}
+
+#multiplication-operations .result {
+    margin-left: 0.4rem;
+}
